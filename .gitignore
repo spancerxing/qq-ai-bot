@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+.envrc
+
+# Local config & secrets — DO NOT COMMIT
+.env
+.env.*
+!.env.example
+
+# Runtime data
+sessions/
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Backup files
+*.bak
+*.bak2
+*.orig
+*.rej
+
+# AI agent / assistant configs
+.agents/
+.codex/
+.claude/
+
+# pyenv / version managers
+.python-version
